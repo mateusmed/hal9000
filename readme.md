@@ -1,5 +1,5 @@
 
-- projeto de faculdade para lógica fuzzy 2017
+- projeto de faculdade para lógica fuzzy 2017 (revisitado em 2024 para documentação)
 ```
 https://pt.wikipedia.org/wiki/L%C3%B3gica_difusa
 ```

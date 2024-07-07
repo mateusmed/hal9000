@@ -80,10 +80,7 @@ public class Main {
                     if(blocoLembranca != null){
                         robo.setBlocoAtual(blocoLembranca);
                     }
-
-
                 }
-
                 cansado++;
             }
 
@@ -93,8 +90,6 @@ public class Main {
             System.out.println("blocos bloqueados: " + robo.getBlocosBloqueados());
 
             makeSpreadsheet.buildMap(robo.getHistoricoTotal(), robo.getBlocosBloqueados());
-
-
 
     }
 

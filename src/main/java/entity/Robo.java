@@ -134,14 +134,16 @@ public class Robo {
                 if(bloco.getDisponivel()){
                     blocoMaisPertoDestino = bloco;
                 }
-            }else if(bloco.getDistanciaDestino() <= blocoMaisPertoDestino.getDistanciaDestino()){
+                continue;
+            }
 
-                if(bloco.getDisponivel()) {
+            if(bloco.getDisponivel()) {
+                if (bloco.getDistanciaDestino() <= blocoMaisPertoDestino.getDistanciaDestino()) {
                     blocoMaisPertoDestino = bloco;
                 }
             }
         }
-
+        
         return blocoMaisPertoDestino;
     }
 

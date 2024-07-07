@@ -63,7 +63,7 @@ public class Leia {
                         blocosRespostaUsuario.add(blocoX2);
                     }
                 }else {
-                    System.out.println("Bloco inválido ... encerrando programa. ");
+                    System.out.println("Bloco inválido ... usuaio já preencheu esse bloco, encerrando programa. ");
                     System.exit(1);
                 }
 

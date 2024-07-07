@@ -13,6 +13,11 @@ public class Bloco {
     public Bloco() {
     }
 
+
+    public Bloco(int x, int y) {
+        this.x = x;
+        this.y = y;
+    }
     public Bloco(int x, int y, Boolean disponivel) {
         this.x = x;
         this.y = y;
@@ -86,7 +91,8 @@ public class Bloco {
     public Boolean blocoExistente(){
 
         if((this.getX() > 15 || this.getY() > 15) ||
-                (this.getX() < 1 || this.getY() < 1)){
+           (this.getX() < 1 || this.getY() < 1)){
+            System.out.println("bloco invalido: x: " + x + " y: " + y);
             return false;
         }
 
