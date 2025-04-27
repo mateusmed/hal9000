@@ -1,4 +1,10 @@
 
+<p align="center">
+  <img width="340" height="600" src="./00-doc/icon/hal9000.jpeg">
+</p>
+
+
+
 - projeto de faculdade para lógica fuzzy 2017 (revisitado em 2024 para documentação)
 ```
 https://pt.wikipedia.org/wiki/L%C3%B3gica_difusa
