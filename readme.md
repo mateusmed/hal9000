@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img width="340" height="600" src="./00-doc/icon/hal9000.jpeg">
+  <img width="600" height="600" src="./00-doc/icon/hal9000.jpeg">
 </p>
 
 
